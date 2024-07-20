@@ -1,3 +1,73 @@
-# Ignorar el archivos .png
-* .png
+## Reglas comunes en el .gitignore
+# Ignorar todos los archivos con extensión .log
+*.log
+
+# Ignorar todos los archivos con extensión .tmp
+*.tmp
+
+# Ignorar el archivo secrets.txt
+secrets.txt
+
+# Archivos de macOS
+.DS_Store
+
+# Archivos de Windows
+Thumbs.db
+
+# Archivos de configuración de entornos de desarrollo
+.vscode/
+
+# Archivos de compilación y dependencias
+dist/
+out/
+
+
+# Archivos que deberían excluirse de un proyecto creado en lenguaje C
+# Archivos de objeto
+*.o 
+
+# Archivos encargados de depuración
+*.d
+
+# Archivos Binarios y ejecutables
+*.exe
+*.out
+*.a
+*.so
+
+# Directorios de compilación
+build/
+bin/
+obj/
+out/
+
+# Archivos de proyectos específicos de entornos de desarrollo integrado (IDEs)
+.cproject
+.project
+.settings/
+*.workspace
+
+# Archivos de configuración de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de configuración de CLion
+.idea/
+
+# Archivos temporales y de respaldo
+*~
+*.bak
+*.tmp
+*.swp
+
+# Archivos de configuración sensible
+.env
+*.config
+
+
+
+
+
 
