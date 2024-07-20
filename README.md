@@ -9,6 +9,7 @@ Pasos para clonar un repositorio
 - Entrar al link del repositorio que se desea clonar
 ![alt text](image.png)
 - Clic a "code" y copiar el link que aparece a continuación
+
 ![alt text](image-1.png)
 - abrir el GitBash y verificar no estar dentro de otro repositorio
 - Usar el comando 'git clone + link ' para clonar el repositorio
